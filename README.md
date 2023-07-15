@@ -62,12 +62,13 @@ chmod u+x crystalline
 yay -S crystalline
 ```
 
-##### MacOS (x86_64)
+##### MacOS
+
+[Homebrew](https://brew.sh) provides pre-built binaries Intel and Apple
+Silicon architectures:
 
 ```sh
-curl -L https://github.com/elbywan/crystalline/releases/latest/download/crystalline_x86_64-apple-darwin.gz -o crystalline.gz &&\
-gzip -d crystalline.gz &&\
-chmod u+x crystalline
+brew install crystalline
 ```
 
 #### Specific release
